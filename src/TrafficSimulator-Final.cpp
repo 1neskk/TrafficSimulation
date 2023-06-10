@@ -122,7 +122,7 @@ int main()
     std::vector<std::shared_ptr<Intersection>> intersections;
     std::vector<std::shared_ptr<Vehicle>> vehicles;
     std::string backgroundImg;
-    constexpr int nVehicles = 5;
+    constexpr int nVehicles = 2;
     createTrafficObjects_NYC(streets, intersections, vehicles, backgroundImg, nVehicles);
 
     /* PART 2 : simulate traffic objects */
