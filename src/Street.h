@@ -1,6 +1,7 @@
 #ifndef STREET_H
 #define STREET_H
 
+#include <memory>
 #include "TrafficObject.h"
 
 // forward declaration to avoid include cycle
@@ -9,7 +10,7 @@ class Intersection;
 class Street : public TrafficObject, public std::enable_shared_from_this<Street>
 {
 public:
-    // constructor / desctructor
+    // constructor / destructor
     Street();
 
     // getters / setters
