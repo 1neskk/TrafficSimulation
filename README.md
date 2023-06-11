@@ -11,6 +11,6 @@ In this project, I have simulated a traffic light at an intersection using concu
 
 ## Basic Build Instructions
 1. Clone this repo.
-2. Make a build directory in the top level directory: `mkdir build && cd build`
+2. Make a build directory in the root directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./traffic_simulation`.
